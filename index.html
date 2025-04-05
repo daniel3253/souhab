@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p onclick="doit()">☰</p>
+        <h1 id="hh">Ahala Bikoum</h1>
+    </header>
+    <nav id="nav">
+        <button id="closeBtn">✖</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bbb/about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+
+    <section id="countdown">
+        <h2>il 3ad il tanesouli lil sif</h2>
+        <p>mech nimchou mba3ed:</p>
+        <div id="timer"></div>
+    </section>
+
+    <section id="itinerary">
+        <h2>il youm nte3na</h2>
+        <ul>
+            <li>8:00 AM - netlamou</li>
+            <li>10:00 AM - nouslou lil bhar</li>
+            <li>12:00 PM - nikou kaskroutat</li>
+            <li>3:00 PM - chwaya takhil 3la les zabeureu</li>
+            <li>6:00 PM - nrawhou</li>
+            <li>8:00 PM - nimchou l9ahwet salih</li>
+        </ul>
+    </section>
+
+    
+        <!-- Custom Audio Player -->
+        <section id="playlist">
+            <h2>Playlist nta3 libhar</h2>
+            <p>nasm3ohom w nhana mechin fi karhabet il nafti</p>
+        
+            <!-- Custom Audio Player -->
+            <div class="audio-player">
+                <div class="player-controls">
+                    <button id="prevBtn" class="control-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="30" height="30" viewBox="0 0 24 24"><path d="M18 12L6 6v12z"></path></svg>
+                    </button>
+                    <button id="playPauseBtn" class="control-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="40" height="40" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+                    </button>
+                    <button id="nextBtn" class="control-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="30" height="30" viewBox="0 0 24 24"><path d="M6 12l12-6v12z"></path></svg>
+                    </button>
+                </div>
+        
+                <div class="progress-bar-container">
+                    <div id="progressBar" class="progress-bar"></div>
+                </div>
+        
+                <div class="volume-container">
+                    <input type="range" id="volume" value="100" max="100" step="1" />
+                </div>
+            </div>
+        </section>
+        
+    
+    
+
+    <section id="packing-list">
+        <h2>chinya mich nhizou</h2>
+        <ul>
+            <li>do5an (liger)</li>
+            <li>5obes s5oun</li>
+            <li>maa1 3ara9</li>
+            <li>salami chraya7</li>
+            <li>dile3 m3a skina</li>
+        </ul>
+    </section>
+
+    <section id="blog">
+        <h2>machyetna lil b7ar</h2>
+        <p>mich inikoulhaz omha twawer w storiet</p>
+        <!-- Blog entries will go here -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 machyetna lil b7ar</p>
+    </footer>
+        <script src="script.js"></script>
+</body>
+</html>

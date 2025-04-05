@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p onclick="doit()">☰</p>
+        <h1 id="hh">Ahala Bikoum</h1>
+    </header>
+    <nav id="nav">
+        <button id="closeBtn">✖</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="about-container">
+            <h2>rihletna fi il sif</h2>
+            <p class="intro">Ihna tlata ashab fi mghamara lektishaf ajmal shawate3 Tounes!
+                Men esh-shrou9 le ghroub esh-shams, nestamta3ou bekoul la7dha bel b7ar</p>
+            
+            <div class="about-section">
+                <h3>3lech ikhtarnah el-b7ar</h3>
+                <p>El-b7ar diema kan mkanna lil-faragh w l-istirakhah. Min sa7r el-mowj w hawa el-mal7, l'ilbess w 3esh el-hayat, el-b7ar ykhalina nsefru men dounya el-dab.</p>
+            </div>
+    
+            <div class="about-section">
+                <h3>Rehlitna </h3>
+                <p>Bditna men el-madina l-khadra La Marsa, w planna nzoorou ahla el-shawate3 fi Tounes, bdelin min Mahdia Beach, Djerba Island, w Hammamet.</p>
+            </div>
+    
+            <div class="about-section">
+                <h3>hdafna </h3>
+                <ul class="goal-list">
+                    <li>Nistir7o w n3awdou n3ishou b7ar el-mediterranean</li>
+                    <li>Nsta3mlo shawate3 makhloufa w m7ejrin</li>
+                    <li>Njarrbou a7la el-makla tounsiya, khususan seafood</li>
+                    <li>N3amlo dhikrayet ma3a ba3dhna fi kol momen</li>
+                    <li>N7awlou nakhdmo 3la taswira lil rehla w nsharkouha ma3a ashabna</li>
+                </ul>
+            </div>
+    
+            <div class="about-section">
+                <h3>a3rfou el-Fariq</h3>
+                <p>Fariqna ykoun men 3 as7ab, kolla 3andhom stylehom w shakhsiyathem, bas ma3 ba3dhna 7abbina n3ichou hadhi r-rihla m3a ba3dh w njibou el-far7a fi kol la7dha:</p>
+                <div class="team-list">
+                    <div class="card">
+                        <h3>daniel</h3>
+                        <img src="../daniel.jpg" alt="">
+                    </div>
+                    <div class="card card2">
+                        <h3>adem</h3>
+                        <img src="../adem.jpg" alt="">
+                    </div>
+                    <div class="card card3">
+                        <h3>hayder</h3>
+                        <img src="../hayder.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        /* General Styling */
+    
+        .about-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            color: #3498db;
+            margin-bottom: 30px;
+        }
+    
+        .intro {
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+    
+        .about-section {
+            margin-bottom: 30px;
+        }
+    
+        .about-section h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+    
+        .about-section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    
+        .goal-list {
+            font-size: 18px;
+            line-height: 1.6;
+            list-style-type: none;
+            padding-left: 0;
+        }
+    
+        .goal-list li {
+            padding-left: 1.5em;
+            position: relative;
+        }
+    
+        .goal-list li:before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-size: 18px;
+        }
+    
+        .team-list {
+            width: 100%;
+            background-color: #fff;
+        }
+
+        .card {
+            width: inherit;
+            height: 30vh;
+            margin-top: 20px;
+            height: 40vh;
+        }
+
+        .card h3 {
+            font-size: 2rem;
+            text-decoration: none;
+        }
+
+        .card img {
+            width: inherit;
+            height: 30vh;
+        }
+    
+        .card2 , .card3 {
+            height: 40vh;
+        }
+
+        .card2 img, .card3 img {
+            height: 30vh;
+        }
+    
+        @media (max-width: 768px) {
+            #about {
+                padding: 20px;
+            }
+    
+            .about-container {
+                padding: 15px;
+            }
+    
+            h2 {
+                font-size: 28px;
+            }
+    
+            .about-section h3 {
+                font-size: 20px;
+            }
+    
+            .intro {
+                font-size: 16px;
+            }
+    
+            .goal-list li,
+            .team-list li {
+                font-size: 16px;
+            }
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>
